@@ -9,6 +9,9 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{bf77bcbe-e98e-4a42-84d9-354d6a7dbf24}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="SkyAtmosphereOpenGL.rc">
@@ -27,5 +30,25 @@
     <ClCompile Include="src\SkyAtmosphereOpenGL.cpp">
       <Filter>src</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\shaders\fullscreen_quad.vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="resources\shaders\multiscattering_lut.cs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="resources\shaders\postprocess.fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="resources\shaders\render_raymarching.fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="resources\shaders\skyview_lut.fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="resources\shaders\transmittance_lut.fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>
